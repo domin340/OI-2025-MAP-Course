@@ -11,7 +11,7 @@ constexpr int surface_area(int a, int b, int c) {
 }
 
 int main() {
-    int rect[3];
+    int rect[SHAPE_3D_SIDES_COUNT];
 
     for (int i = 0; i < SHAPE_3D_SIDES_COUNT; i++) {
         std::cin >> rect[i];

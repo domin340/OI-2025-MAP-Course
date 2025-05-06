@@ -2,7 +2,6 @@
 
 #define INPUT_INT_LIMIT 500000000
 #define OUTPUT_INT_LIMIT 2000000000
-#define SHAPE_3D_SIDES_COUNT 3
 
 constexpr int volume(int a, int b, int c) { return a * b * c; }
 
@@ -11,9 +10,9 @@ constexpr int surface_area(int a, int b, int c) {
 }
 
 int main() {
-    int rect[SHAPE_3D_SIDES_COUNT];
+    int rect[3];
 
-    for (int i = 0; i < SHAPE_3D_SIDES_COUNT; i++) {
+    for (int i = 0; i < 3; i++) {
         std::cin >> rect[i];
 
         if (rect[i] < 1 || rect[i] >= INPUT_INT_LIMIT) {

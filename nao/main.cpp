@@ -1,11 +1,9 @@
 #include <iostream>
 
-#define MAX_N 3
-
 int main() {
     int nums[3];
 
-    for (int i = 0; i < MAX_N; i++) {
+    for (int i = 0; i < 3; i++) {
         std::cin >> nums[i];
 
         if (nums[i] < -1000 || nums[i] > 1000) {

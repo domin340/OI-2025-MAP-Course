@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    for (int i = MAX_N - 1; i >= 0; i--) {
+    for (int i = 2; i >= 0; i--) {
         std::cout << nums[i] << std::endl;
     }
 

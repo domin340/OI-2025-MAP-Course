@@ -25,16 +25,19 @@ int main() {
     std::cin >> x;
     if (!is_in_range(x, MIN - 1, MAX + 1)) {
         std::cout << "number is not inside of range" << std::endl;
+        return 1;
     }
 
     std::cin >> y;
     if (!is_in_range(y, MIN - 1, MAX + 1)) {
         std::cout << "number is not inside of range" << std::endl;
+        return 1;
     }
 
     std::cin >> a;
     if (!is_in_range(a, MIN - 1, MAX + 1)) {
         std::cout << "number is not inside of range" << std::endl;
+        return 1;
     }
 
     std::cout << sto_formula(x, y, a) << std::endl;

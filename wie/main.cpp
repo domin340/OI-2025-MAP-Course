@@ -23,7 +23,6 @@ get the number m.
 
 */
 
-#include <cmath>
 #include <iostream>
 
 int main() {
